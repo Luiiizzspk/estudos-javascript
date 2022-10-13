@@ -51,7 +51,25 @@
             <div class="card-body">
                 <!-- insira os elementos de saída aqui -->
                 <div id="resposta" class="p-4">
-
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col" colspan="5">Tabuada do número 7</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td scope="row">7</td>
+                                    <td>X</td>
+                                    <td>1</td>
+                                    <td>=</td>
+                                    <td>7</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -74,11 +92,9 @@
         entrada.addEventListener('submit', (e) => {
             //laço de repetição para 10 etapas - tabuada até 10
             let numero = document.getElementById('numero').value
-
-           for (let contador = 1; contador <= 10; contador++) {
-               console.log(`${numero} X ${contador} = ${numero * contador}`)
-               
-           }
+            for (let contador = 1; contador <= 10; contador++) {
+                console.log(`${numero} X ${contador} = ${numero * contador}`)                
+            }            
 
             e.preventDefault()
         })

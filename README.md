@@ -1,2 +1,2 @@
-# estudos-javascript
-Estruturas de programação mais comuns. Portugol para javascript
+# estudos-js
+Estruturas de programação mais comuns.
